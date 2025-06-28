@@ -258,4 +258,39 @@
   .home-links a, .home-links .active, .home-links .home-link {
     font-size: 0.9rem;
   }
+}
+
+.home-social-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  z-index: 100;
+}
+
+.home-social-footer a {
+  color: #111;
+  font-size: 2.2rem;
+  text-shadow: 0 2px 8px #fff, 0 1px 1px #fff;
+  transition: color 0.2s, opacity 0.2s;
+  opacity: 0.92;
+}
+
+.home-social-footer a:hover {
+  color: #fff;
+  opacity: 1;
+  text-shadow: 0 2px 8px #fff, 0 1px 1px #fff;
+}
+
+@media (max-width: 768px) {
+  .home-social-footer {
+    bottom: 1.2rem;
+    gap: 1.5rem;
+  }
+  .home-social-footer a {
+    font-size: 1.7rem;
+  }
 } 
