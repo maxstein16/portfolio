@@ -17,7 +17,7 @@ function Home() {
       <div className="home-center-group">
         <div className="home-name">MAX STEIN</div>
         <div className="home-subtitle">
-          software developer<span className="subtitle-break"><br /></span> at octus in new york
+          software engineer<span className="subtitle-break"><br /></span> at octus in new york
         </div>
         <div className="home-links">
           <a href="https://github.com/maxstein16" target="_blank" rel="noopener noreferrer">PROJECTS</a>
